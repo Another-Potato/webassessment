@@ -19,7 +19,7 @@ h5 {font-size: 18px;}
 
 /* Nav*/
 
-nav {
+#main-nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -40,10 +40,9 @@ nav {
 
 nav ul{list-style-type: none;}
 
-nav li{
-    display: inline-block;
-    padding-left: 16px;
-}
+nav li{display: inline-block;}
+
+#main-nav li{padding-left: 16px;}
 
 /* Header*/
 
@@ -214,7 +213,13 @@ header > img {
 
 footer {
     border-top:1px solid #989898;
-    padding:16px 24px;
+    display: flex;
+    justify-content: space-between;
+    padding:16px 0 24px 24px;
+}
+
+footer nav li {
+    padding-right: 8px;
 }
 
 @media screen and (max-width: 720px) {}
