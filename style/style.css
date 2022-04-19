@@ -104,6 +104,7 @@ header > img {
     height: auto;
     padding-left: 24px;
     padding-bottom: 32px;
+    object-fit: cover;
 }
 
 #about-aside {
@@ -159,6 +160,7 @@ header > img {
 
 #exhibit-aside {
     width:40%;
+    padding-left:24px;
 }
 
 .exhibit-card {
