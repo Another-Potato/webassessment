@@ -277,4 +277,10 @@ footer nav li {
     #header-right h1 {
         padding: 16px 0;
     }
+
+    /* Mobile-Footer*/
+
+    footer {
+        padding: 16px 0 24px 16px;
+    }
 }
