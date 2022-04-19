@@ -9,6 +9,8 @@ body {
     color: #989898;
 }
 
+h1, h2, h3, h4, h5 {color:#4f4f4f}
+
 h1 {font-size: 30px; font-weight: bold;}
 h2 {font-size: 24px;}
 h3 {font-size: 22px;}
@@ -47,14 +49,14 @@ nav li{
 
 header {
     display: flex;
+    width: 100%;
     background-color: #c4c2c2;
-    padding: 32px 24px;
-    color:#4f4f4f;
+    padding: 32px 0;
 }
 
 header > img {
     width: 60%;
-    height: auto;
+    padding-left: 24px;
 }
 
 #header-right {
@@ -62,7 +64,7 @@ header > img {
     flex-direction: column;
     justify-content: center;
     width:40%;
-    padding-left: 24px;
+    padding:0px 24px;
 }
 
 #header-right > h1 {padding-bottom: 16px;}
@@ -76,7 +78,60 @@ header > img {
     padding:4px;
 }
 
-/**/
+/* About*/
+
+#about {
+    display: flex;
+    flex-direction: column;
+    width:100%;
+    padding:32px 0;
+}
+
+#about-first {
+    display: flex;
+    width:100%;
+    justify-content: space-between;
+}
+
+#about-img {
+    width: 60%;
+    height: auto;
+    padding-left: 24px;
+    padding-bottom: 32px;
+}
+
+#about-first > aside {
+    width:35%;
+}
+
+#about-first > aside div:nth-child(3){background-color: #E1DFDF;}
+
+.about-card{
+    display:flex;
+    padding:16px;
+    padding-right:24px;
+}
+
+.about-card > img {
+    width:35%;
+    height:auto;
+}
+.about-card > div {
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 65%;
+    padding-left: 16px;
+}
+
+.about-card a {color: #497ABD;}
+
+#about-desc {
+    width: 60%;
+    padding-left: 24px;
+}
+
+#about-desc > h2, #about-desc > p {padding-bottom: 24px;}
 
 /* Footer*/
 
