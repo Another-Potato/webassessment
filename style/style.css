@@ -130,7 +130,7 @@ header > img {
     padding-left: 16px;
 }
 
-.aside-card a {color: #497ABD;}
+.aside-card a, #mobile-about a {color: #497ABD;}
 
 #about-desc {
     width: 60%;
@@ -231,7 +231,7 @@ footer nav li {
 
 /* Mobile*/
 
-#mobile-nav {
+#mobile-nav, #mobile-about {
     display: none;
 }
 
@@ -277,6 +277,26 @@ footer nav li {
     #header-right h1 {
         padding: 16px 0;
     }
+    /* Mobile-About*/
+
+    #about-desc, #about-first {display: none;}
+
+    #about {
+        padding:32px 32px 0 32px;
+    }
+
+    #mobile-about{
+        display: flex;
+        flex-direction: column;
+    }
+    .mobile-about-card {
+        width:100%;
+        padding-bottom: 32px;
+    }
+    .mobile-about-card img{width: 100%;}
+    .mobile-about-card h3 {padding-bottom:16px;}
+    .mobile-about-card-desc{padding:16px 16px 0 16px;}
+    .mobile-about-card-desc p{padding-bottom: 8px;}
     /* Mobile-Course*/
 
 
