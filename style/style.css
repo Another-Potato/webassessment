@@ -78,16 +78,16 @@ header > img {
     padding:4px;
 }
 
-/* About*/
+/* About & Exhibit*/
 
-#about {
+#about, #exhibit {
     display: flex;
     flex-direction: column;
     width:100%;
     padding:32px 0;
 }
 
-#about-first {
+#about-first, #exhibit-first {
     display: flex;
     width:100%;
     justify-content: space-between;
@@ -100,23 +100,23 @@ header > img {
     padding-bottom: 32px;
 }
 
-#about-first > aside {
+#about-aside {
     width:35%;
 }
 
-#about-first > aside div:nth-child(3){background-color: #E1DFDF;}
+#about-aside div:nth-child(3){background-color: #E1DFDF;}
 
-.about-card{
+.aside-card{
     display:flex;
     padding:16px;
     padding-right:24px;
 }
 
-.about-card > img {
+.aside-card > img, .exhibit-card > img {
     width:35%;
     height:auto;
 }
-.about-card > div {
+.aside-card > div, .exhibit-card > div  {
     display:flex;
     flex-direction: column;
     justify-content: center;
@@ -124,7 +124,7 @@ header > img {
     padding-left: 16px;
 }
 
-.about-card a {color: #497ABD;}
+.aside-card a {color: #497ABD;}
 
 #about-desc {
     width: 60%;
@@ -132,6 +132,43 @@ header > img {
 }
 
 #about-desc > h2, #about-desc > p {padding-bottom: 24px;}
+
+/*Exhibit*/
+
+#exhibit {
+    padding:32px 24px;
+}
+
+#exhibit-header {
+    width:100%;
+    text-align: center;
+    padding-bottom: 32px;
+}
+
+#exhibit-video {
+    width: 60%;
+    height: auto;
+    padding-bottom: 24px;
+}
+
+#exhibit-aside {
+    width:40%;
+}
+
+.exhibit-card {
+    display:flex;
+    padding:16px;
+    padding-right:0;
+}
+
+#exhibit-desc {
+    width:60%;
+}
+#exhibit-desc > h2 {padding-bottom: 15px;}
+
+#exhibit-aside div:nth-child(1){
+    background-color: #E1DFDF;
+}
 
 /* Course*/
 
