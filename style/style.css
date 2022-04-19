@@ -307,6 +307,19 @@ footer nav li {
         padding:16px 0;
     }
 
+    /* Mobile-Exhibit*/
+
+    #exhibit {
+        padding:32px 0;
+    }
+
+    #exhibit-desc, #exhibit-aside {display: none;}
+
+    #exhibit-video {
+        width: 100%;
+        padding:0;
+    }
+
     /* Mobile-Footer*/
 
     footer {
